@@ -5,16 +5,20 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
-section{
+.flexible-conainer{
     display: flex;
     margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    
 }
 .half-width img{
     width: 80%;
@@ -34,4 +38,22 @@ section{
     background-image: url(Bariul/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.anik-ahmmed{
+    background-image: url(Bariul/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 10px solid;
+}
+#wev-develop-exp{
+    border-left: 7px solid;
+    border-image: linear-gradiant(blue,cyan);
+    border-image-slice: 1;
 }
